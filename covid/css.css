@@ -1,0 +1,273 @@
+/* Body Html*/
+
+body{
+    position: relative;
+    width: 1520px;
+    height : 730px;
+    background-image: linear-gradient(to bottom left, orange, white);
+}
+
+/* End */
+
+/* Section */
+
+section .container{
+    font-family: "Poppins", medium;
+    font-size: 1em;
+    color: #767676;
+}
+
+/* End */
+
+/* Card */
+
+.awal{
+    width: 700px;
+    height : 570px;
+    padding: 40px;
+    position: relative;
+    top: 50%;
+    left: 28%;
+    margin-top: 320px;
+    border-radius: 24px;
+    box-shadow: 5px 10px 8px #888888;
+    transform: translate(-50%,-50%);
+    background-image: linear-gradient(to bottom right, red, yellow);
+    text-align: left;
+}
+
+/* End */
+
+/* Covid */
+
+.covid {
+    padding: 20vmin 0vmin;
+    border-radius: 40px;
+    background-color: honeydew;
+}
+
+.covid .col-md-12 .panel {
+    position: center;
+    border-radius: 10px;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    background: #dadada;
+    text-align: center;
+    padding: 5vmin 1vmin 1vmin 5vmin;
+    font-family: "Poppins", sans-serif;
+    z-index: 1;
+}
+
+.covid .row{
+    width: 1050px;   
+}
+
+.covid .row h3 {
+    font-weight: bolder;
+    padding: 0.4em 0;
+    font-size: 3em;
+    text-align: center;
+}
+
+.covid .row .col{
+    text-align: center;
+    padding-top: 0 ;
+}
+
+.covid .row .col h3 {
+    text-align: center;
+}
+
+.mat {
+    color: #820B39;
+    text-align: right;
+}
+
+.tot {
+    color: #FF3E14;
+    text-align: left;
+}
+
+.sem {
+    color: rgb(0, 206, 51);
+    text-align: center;
+}
+
+.covid p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.covid a {
+    color: #820B39;
+}
+
+/* End */
+
+/* Image */
+
+.bikin img{
+    position: relative;
+    width: 30%;
+    float: right;
+    margin-top:-330px ;
+    height:auto;
+    transform: translate(-30%,-90%);
+}
+
+/* End */
+
+/* Font */
+
+.gedi{
+    font-family: 'Roboto Slab',serif;
+    font-size : 70px;
+}
+.cilik{
+    font-family: 'Ubuntu',serif;
+    font-size : 30px;
+}
+
+/* End */
+
+/* Button Submit */
+
+.submit{
+    border: 0;
+    background: white ;  
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    border: 2px solid none;
+    padding: 14px 50px;
+    font-size : 20px;
+    font-family: 'Ubuntu',serif;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    box-shadow: 5px 10px 8px #888888;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+/* End */
+
+/* Nav */
+
+.navbar{
+    position: relative;
+    min-height: 50px;
+    min-width: 1517.5px;
+    margin:0px;
+}
+
+/* End */
+
+/* Card */
+
+.card{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    border: none;
+    font-family: 'Ubuntu',serif;
+}
+
+/* End */
+
+/* Footer Button */
+
+.footer button{
+    margin: 30px;
+}
+
+/* End */
+
+/* Tentang */
+
+.tentang {
+    border-radius: 40px;
+    background: var(--bgcolor);
+    padding: 20vmin 0vmin;
+}
+
+.tentang .row {
+    padding: 10vmin 5vmin 1vmin 5vmin;
+    font-family: "Poppins", sans-serif;
+}
+
+.tentang .row .col-md-7 img {
+    width: 100%;
+}
+
+.tentang .row .col-md-5 h1 {
+    font-size: 8.5vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    color: #FF3E14;
+}
+
+.tentang .row .col-md-5 p {
+    padding: 1vmin 5vmin;
+    font-size: 2.1vmin;
+}
+
+/* End */
+
+/* Tips */
+
+.tips {
+    padding: 20vmin 0vmin;
+    font-family: "Poppins" sans-serif;
+    border-radius: 40px;
+    background-color: honeydew;
+}
+
+.tips .content h1 {
+    font-size: 10vmin;
+    font-weight: bold;
+    padding: 0.1em 0em;
+    color: #820B39;
+}
+
+.tips .content p {
+    font-size: 1.5em;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20vmin;
+}
+
+/* End */
+
+/* Footer */
+
+.numbers {
+    padding-top: -15vmin;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: #dadada;;
+    width: auto;
+    height: auto;
+    margin: 1rem;
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 1px 2px 50px 0px rgba(226, 226, 226, 0.349);
+}
+
+.numbers .rect h5 {
+    font-size: 1.5em;
+    color: #B30033;
+    font-weight: bold;
+}
+
+.numbers .rect p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.numbers .rect .col-sm-12 img {
+    max-width: 100%;
+    width: 70%;
+    padding: 20px;
+}
+
+/* End */
